@@ -4,7 +4,8 @@ html {
     -webkit-font-smoothing: antialiased;
 }
 
-body {
+
+.main-body{
     background: #fff;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
     color: #545454;
@@ -14,12 +15,12 @@ body {
     margin: auto;
     max-width: 800px;
     padding: 2em 2em 4em;
-       
+    
 }
 
 header{
-    background-color: blue;
-    height: 100px;
+    background-color: #283655;
+    height: 50px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -60,6 +61,8 @@ img {
     display: block;
     margin: 1.3em auto;
     max-width: 95%;
+
+    
 }
 
 @keyframes colorize {
@@ -82,10 +85,19 @@ img {
     top: 0;
     right: 0;
     
+    display: inline-block;
+    margin-left: 5px;
+    
+    text-decoration: none;
+    display: inline-block;
+    padding-right: 25px;
+    transition: 0.5s color;
+  
+    
 }
 
 .verytop-img{
-    border: 0;
+  
 }
 
 container:after, .verytop-img:after, .u-cf {
@@ -93,14 +105,15 @@ container:after, .verytop-img:after, .u-cf {
     display: table;
     clear: both;
 }
-a.contact-links {
+.btn-contact {
     color: #2B65EC;
     text-decoration: none;
-    margin-right: 25px;
+    display: inline-block;
+    padding-right: 25px;
     transition: 0.5s color;
 }
 
-container:after, .row:after, .u-cf {
+container:after, .rows:after, .u-cf {
     content: "";
     display: table;
     clear: both;
@@ -113,3 +126,8 @@ container:after, .row:after, .u-cf {
     background-color: #333; 
    
 }
+
+.intro-body{
+    font-size: 1.2rem;
+}
+
