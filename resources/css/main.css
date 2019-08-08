@@ -1,3 +1,6 @@
+/* ------------------------ */
+/* Basic Setup */
+
 html {
     background: #fafafa;
     background-image: linear-gradient(#FDDFDF);
@@ -17,6 +20,9 @@ html {
     padding: 2em 2em 4em;
     
 }
+
+/* ------------------------ */
+/* Headers */
 
 header{
     background-color: #283655;
@@ -49,6 +55,51 @@ img {
    
 }
 
+/* ------------------------ */
+/* Main navigation */
+
+/* Main navi */
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    padding: 8px 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    -webkit-transition: border-bottom 0.2s;
+    transition: border-bottom 0.2s;
+    padding-bottom: 3px;
+    font-size: 100%;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 1.5px solid #e67e22;
+    padding-bottom: 3px;
+    font-size: 100%;
+}
+
+
+/* ------------------------ */
+/* Resuable Components */
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 .portrait {
     width: 180px;
@@ -85,7 +136,6 @@ img {
     top: 0;
     right: 0;
     
-    display: inline-block;
     margin-left: 5px;
     
     text-decoration: none;
@@ -96,22 +146,37 @@ img {
     
 }
 
-.verytop-img{
-  
-}
 
 container:after, .verytop-img:after, .u-cf {
     content: "";
     display: table;
     clear: both;
 }
-.btn-contact {
-    color: #2B65EC;
+.btn-contact:link, .btn-contact:visited {
+    color: #fff;
     text-decoration: none;
     display: inline-block;
-    padding-right: 25px;
+    padding: 5px 25px;
     transition: 0.5s color;
+    margin-top: 5px;
+    
+    background-color: #3498db;
+    border-radius: 200px;
 }
+
+.btn-contact:hover, .btn-contact:active {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 25px;
+    transition: 0.5s color;
+    margin-top: 5px;
+    
+    background-color: #1f74ac;
+    border-radius: 200px;
+}
+
+
 
 container:after, .rows:after, .u-cf {
     content: "";
