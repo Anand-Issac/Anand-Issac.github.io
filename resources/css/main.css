@@ -8,6 +8,7 @@ html {
 }
 
 
+
 .main-body{
     background: #fff;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
@@ -21,12 +22,13 @@ html {
     
 }
 
+
 /* ------------------------ */
 /* Headers */
 
 header{
     background-color: #283655;
-    height: 50px;
+    height: 60px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -59,10 +61,14 @@ img {
 /* Main navigation */
 
 /* Main navi */
+
+
+
 .main-nav {
     float: right;
     list-style: none;
     margin-top: 20px;
+    margin-right: 150px;
 }
 
 .main-nav li {
