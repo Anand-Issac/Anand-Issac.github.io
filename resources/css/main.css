@@ -22,8 +22,6 @@ html {
     
 }
 
-
-/* ------------------------ */
 /* Headers */
 
 header{
@@ -44,12 +42,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h2 {
-    margin-top: 1em;
+    margin-top: 1.5rem;
 }
 
 h3{
-    font-weight: 600;
+    font-weight: 500;
 }
+
+
 
 img {
     margin: 1.3em auto;
@@ -57,8 +57,6 @@ img {
    
 }
 
-/* ------------------------ */
-/* Main navigation */
 
 /* Main navi */
 
@@ -99,12 +97,21 @@ img {
 }
 
 
-/* ------------------------ */
 /* Resuable Components */
 
 .row {
     max-width: 1140px;
     margin: 0 auto;
+}
+
+container:after, .rows:after, .u-cf {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+section{
+    margin: 5px;
 }
 
 .portrait {
@@ -133,6 +140,34 @@ img {
     }
 }
 
+.hr{
+    border: none;
+    height: 1px;
+    color: #333; 
+    background-color: #333; 
+   
+}
+
+.intro-body{
+    font-size: 1.2rem;
+}
+
+#projects-title{
+    margin-top: 0.5rem;
+}
+
+.work-in-progress{
+    font-weight: normal;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.skills-list{
+    text-transform: uppercase;
+}
+
+
+/* ICONS */
 .verytop{
     position: relative;
 }
@@ -148,16 +183,17 @@ img {
     display: inline-block;
     padding-right: 25px;
     transition: 0.5s color;
-  
-    
 }
 
-
-container:after, .verytop-img:after, .u-cf {
-    content: "";
-    display: table;
-    clear: both;
+.icon-big{
+    font-size: 200%;
+    display: block;
+    color: #3498db;
+   
 }
+
+/* BUTTONS */
+
 .btn-contact:link, .btn-contact:visited {
     color: #fff;
     text-decoration: none;
@@ -180,25 +216,5 @@ container:after, .verytop-img:after, .u-cf {
     
     background-color: #1f74ac;
     border-radius: 200px;
-}
-
-
-
-container:after, .rows:after, .u-cf {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.hr{
-    border: none;
-    height: 1px;
-    color: #333; 
-    background-color: #333; 
-   
-}
-
-.intro-body{
-    font-size: 1.2rem;
 }
 
