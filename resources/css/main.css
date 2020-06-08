@@ -47,6 +47,9 @@ h2 {
 
 h3{
     font-weight: 500;
+    margin-top: 2rem;
+    padding-top:50px;
+    
 }
 
 
@@ -376,4 +379,8 @@ footer p {
     margin-top: 20px;
 }
 
+.hard-skills-list{
+    font-weight: 400;
+    font-size: large;
 
+}
