@@ -1,2 +1,0 @@
-# anand-issac
-Personal website
